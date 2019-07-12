@@ -51,6 +51,14 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
                 WebViewActivity.start(mContext, mList.get(position).getUrl());
             }
         });
+        if (holder.tvGitView != null) {
+            holder.tvGitView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    WebViewActivity.start(mContext, mList.get(position).getGitUrl());
+                }
+            });
+        }
     }
 
     @Override
@@ -60,10 +68,12 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
     static class MyHolder extends RecyclerView.ViewHolder {
         private TextView textView;
+        private TextView tvGitView;
 
         public MyHolder(@NonNull View itemView) {
             super(itemView);
             textView = itemView.findViewById(R.id.tv_title_item);
+            tvGitView = itemView.findViewById(R.id.tv_git_item);
         }
     }
 }

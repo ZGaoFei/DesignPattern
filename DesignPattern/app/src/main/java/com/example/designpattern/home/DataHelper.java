@@ -13,8 +13,14 @@ public class DataHelper {
     public static List<ItemModel> getData() {
         List<ItemModel> list = new ArrayList<>();
         list.add(createModel("创建型模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
-        list.add(createModel("工厂模式（Factory Pattern）", "https://www.runoob.com/design-pattern/factory-pattern.html", ITEM_TYPE_CONTENT));
-        list.add(createModel("抽象工厂模式（Abstract Factory Pattern）", "https://www.runoob.com/design-pattern/abstract-factory-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("工厂模式（Factory Pattern）",
+                "https://www.runoob.com/design-pattern/factory-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/factory",
+                ITEM_TYPE_CONTENT));
+        list.add(createModel("抽象工厂模式（Abstract Factory Pattern）",
+                "https://www.runoob.com/design-pattern/abstract-factory-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/abstract_factory",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("单例模式（Singleton Pattern）", "https://www.runoob.com/design-pattern/singleton-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("建造者模式（Builder Pattern）", "https://www.runoob.com/design-pattern/builder-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("原型模式（Prototype Pattern）", "https://www.runoob.com/design-pattern/prototype-pattern.html", ITEM_TYPE_CONTENT));
@@ -56,6 +62,10 @@ public class DataHelper {
     }
 
     private static ItemModel createModel(String title, String url, int type) {
-        return new ItemModel(title, url, type);
+        return createModel(title, url, "", type);
+    }
+
+    private static ItemModel createModel(String title, String url, String gitUrl, int type) {
+        return new ItemModel(title, url, gitUrl, type);
     }
 }
