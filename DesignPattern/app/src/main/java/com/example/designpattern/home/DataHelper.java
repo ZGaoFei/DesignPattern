@@ -21,7 +21,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/abstract-factory-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/abstract_factory",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("单例模式（Singleton Pattern）", "https://www.runoob.com/design-pattern/singleton-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("单例模式（Singleton Pattern）",
+                "https://www.runoob.com/design-pattern/singleton-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/singleton",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("建造者模式（Builder Pattern）", "https://www.runoob.com/design-pattern/builder-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("原型模式（Prototype Pattern）", "https://www.runoob.com/design-pattern/prototype-pattern.html", ITEM_TYPE_CONTENT));
 
