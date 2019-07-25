@@ -29,7 +29,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/builder-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/builder",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("原型模式（Prototype Pattern）", "https://www.runoob.com/design-pattern/prototype-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("原型模式（Prototype Pattern）",
+                "https://www.runoob.com/design-pattern/prototype-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/prototype",
+                ITEM_TYPE_CONTENT));
 
         list.add(createModel("结构型模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
         list.add(createModel("适配器模式（Adapter Pattern）", "https://www.runoob.com/design-pattern/adapter-pattern.html", ITEM_TYPE_CONTENT));
