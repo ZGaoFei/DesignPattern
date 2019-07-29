@@ -8,7 +8,8 @@ public class DataHelper {
     public static final int ITEM_TYPE_TITLE = 0;
     public static final int ITEM_TYPE_CONTENT = 1;
 
-    private DataHelper() {}
+    private DataHelper() {
+    }
 
     public static List<ItemModel> getData() {
         List<ItemModel> list = new ArrayList<>();
@@ -34,12 +35,15 @@ public class DataHelper {
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/prototype",
                 ITEM_TYPE_CONTENT));
 
-        list.add(createModel("结构型模式",
-                "https://www.runoob.com/design-pattern/design-pattern-intro.html",
+        list.add(createModel("结构型模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
+        list.add(createModel("适配器模式（Adapter Pattern）",
+                "https://www.runoob.com/design-pattern/adapter-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/adapter",
-                ITEM_TYPE_TITLE));
-        list.add(createModel("适配器模式（Adapter Pattern）", "https://www.runoob.com/design-pattern/adapter-pattern.html", ITEM_TYPE_CONTENT));
-        list.add(createModel("桥接模式（Bridge Pattern）", "https://www.runoob.com/design-pattern/bridge-pattern.html", ITEM_TYPE_CONTENT));
+                ITEM_TYPE_CONTENT));
+        list.add(createModel("桥接模式（Bridge Pattern）",
+                "https://www.runoob.com/design-pattern/bridge-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/bridge",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("过滤器模式（Filter、Criteria Pattern）", "https://www.runoob.com/design-pattern/filter-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("组合模式（Composite Pattern）", "https://www.runoob.com/design-pattern/composite-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("装饰器模式（Decorator Pattern）", "https://www.runoob.com/design-pattern/decorator-pattern.html", ITEM_TYPE_CONTENT));
