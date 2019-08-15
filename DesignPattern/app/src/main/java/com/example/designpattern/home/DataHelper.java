@@ -48,7 +48,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/filter-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/filter",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("组合模式（Composite Pattern）", "https://www.runoob.com/design-pattern/composite-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("组合模式（Composite Pattern）",
+                "https://www.runoob.com/design-pattern/composite-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/composite",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("装饰器模式（Decorator Pattern）", "https://www.runoob.com/design-pattern/decorator-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("外观模式（Facade Pattern）", "https://www.runoob.com/design-pattern/facade-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("享元模式（Flyweight Pattern）", "https://www.runoob.com/design-pattern/flyweight-pattern.html", ITEM_TYPE_CONTENT));
