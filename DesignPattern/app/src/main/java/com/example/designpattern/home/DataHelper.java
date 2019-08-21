@@ -60,7 +60,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/facade-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/facade",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("享元模式（Flyweight Pattern）", "https://www.runoob.com/design-pattern/flyweight-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("享元模式（Flyweight Pattern）",
+                "https://www.runoob.com/design-pattern/flyweight-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/flyweight",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("代理模式（Proxy Pattern）", "https://www.runoob.com/design-pattern/proxy-pattern.html", ITEM_TYPE_CONTENT));
 
         list.add(createModel("行为型模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
