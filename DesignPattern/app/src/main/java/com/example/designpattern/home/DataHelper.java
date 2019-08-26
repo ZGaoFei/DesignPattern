@@ -70,7 +70,10 @@ public class DataHelper {
                 ITEM_TYPE_CONTENT));
 
         list.add(createModel("行为型模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
-        list.add(createModel("责任链模式（Chain of Responsibility Pattern）", "https://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("责任链模式（Chain of Responsibility Pattern）",
+                "https://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/chainofresponsibility",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("命令模式（Command Pattern）", "https://www.runoob.com/design-pattern/command-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("解释器模式（Interpreter Pattern）", "https://www.runoob.com/design-pattern/interpreter-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("迭代器模式（Iterator Pattern）", "https://www.runoob.com/design-pattern/iterator-pattern.html", ITEM_TYPE_CONTENT));
