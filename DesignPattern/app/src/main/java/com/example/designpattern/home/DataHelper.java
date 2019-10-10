@@ -90,7 +90,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/mediator-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/mediator",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("备忘录模式（Memento Pattern）", "https://www.runoob.com/design-pattern/memento-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("备忘录模式（Memento Pattern）",
+                "https://www.runoob.com/design-pattern/memento-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/memento",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("观察者模式（Observer Pattern）", "https://www.runoob.com/design-pattern/observer-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("状态模式（State Pattern）", "https://www.runoob.com/design-pattern/state-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("空对象模式（Null Object Pattern）", "https://www.runoob.com/design-pattern/null-object-pattern.html", ITEM_TYPE_CONTENT));
