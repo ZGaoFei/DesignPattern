@@ -98,7 +98,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/observer-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/observer",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("状态模式（State Pattern）", "https://www.runoob.com/design-pattern/state-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("状态模式（State Pattern）",
+                "https://www.runoob.com/design-pattern/state-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/state",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("空对象模式（Null Object Pattern）", "https://www.runoob.com/design-pattern/null-object-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("策略模式（Strategy Pattern）", "https://www.runoob.com/design-pattern/strategy-pattern.html", ITEM_TYPE_CONTENT));
         list.add(createModel("模板模式（Template Pattern）", "https://www.runoob.com/design-pattern/template-pattern.html", ITEM_TYPE_CONTENT));
