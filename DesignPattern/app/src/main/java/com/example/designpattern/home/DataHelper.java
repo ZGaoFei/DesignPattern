@@ -110,7 +110,10 @@ public class DataHelper {
                 "https://www.runoob.com/design-pattern/strategy-pattern.html",
                 "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/strategy",
                 ITEM_TYPE_CONTENT));
-        list.add(createModel("模板模式（Template Pattern）", "https://www.runoob.com/design-pattern/template-pattern.html", ITEM_TYPE_CONTENT));
+        list.add(createModel("模板模式（Template Pattern）",
+                "https://www.runoob.com/design-pattern/template-pattern.html",
+                "https://github.com/ZGaoFei/DesignPattern/tree/master/DesignPattern/app/src/main/java/com/example/designpattern/test_code/template",
+                ITEM_TYPE_CONTENT));
         list.add(createModel("访问者模式（Visitor Pattern）", "https://www.runoob.com/design-pattern/visitor-pattern.html", ITEM_TYPE_CONTENT));
 
         list.add(createModel("J2EE 模式", "https://www.runoob.com/design-pattern/design-pattern-intro.html", ITEM_TYPE_TITLE));
